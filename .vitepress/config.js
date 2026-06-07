@@ -2,7 +2,7 @@ export default {
   // ============================================================
   // Site Config
   // ============================================================
-  base: '/agentskills/',
+  base: '/',
   lang: 'zh-TW',
   title: 'Agent Skills 實戰課程',
   description: '繁體中文 Agent Skills 完整教學 — 從零學會撰寫、測試、發布 AI Agent 技能',
