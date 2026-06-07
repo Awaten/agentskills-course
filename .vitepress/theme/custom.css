@@ -70,24 +70,33 @@
   opacity: 0.5;
 }
 
-/* 圖表響應式容器 */
-.diagram-responsive {
-  width: 100%;
-  max-width: 100%;
+/* 三線並排路線圖 */
+.lane-grid {
+  display: flex;
+  gap: 1rem;
   margin: 1.5rem 0;
-  overflow-x: auto;
 }
 
-.diagram-responsive img {
+.lane-grid .lane {
+  flex: 1;
+  min-width: 0;
+}
+
+.lane-grid .lane img {
   display: block;
   width: 100%;
   height: auto;
 }
 
-/* 手機端可橫向捲動 */
+.lane-grid .lane p {
+  text-align: center;
+  font-size: 0.85em;
+  color: var(--vp-c-text-2);
+  margin-top: 0.5rem;
+}
+
 @media (max-width: 768px) {
-  .diagram-responsive {
-    overflow-x: scroll;
-    -webkit-overflow-scrolling: touch;
+  .lane-grid {
+    flex-direction: column;
   }
 }

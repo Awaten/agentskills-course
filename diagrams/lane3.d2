@@ -1,0 +1,43 @@
+direction: down
+scale: 1.5
+
+L3_label: {
+  label: "🎓 專業路線"
+  style.font-size: 28; style.font-color: "#be185d"
+  style.bold: true; shape: text
+}
+L3_label -> L3_S1: { style.stroke: "#f9a8d4"; style.stroke-width: 4; style.stroke-dash: 8 }
+L3_S1: {
+  label: "基礎概念\nCh1 – Ch3\n~1 小時"
+  shape: hexagon
+  style.fill: "#fce7f3"; style.stroke: "#ec4899"; style.stroke-width: 3
+  style.font-color: "#9d174d"; style.font-size: 20; style.bold: true
+}
+L3_S1 -> L3_S2: { style.stroke: "#f472b6"; style.stroke-width: 4 }
+L3_S2: {
+  label: "動手實作\nCh4 – Ch6\n~2 小時"
+  shape: hexagon
+  style.fill: "#fce7f3"; style.stroke: "#ec4899"; style.stroke-width: 3
+  style.font-color: "#9d174d"; style.font-size: 20; style.bold: true
+}
+L3_S2 -> L3_S3: { style.stroke: "#f472b6"; style.stroke-width: 4 }
+L3_S3: {
+  label: "撰寫心法\nCh7 – Ch10\n~2.5 小時"
+  shape: hexagon
+  style.fill: "#fce7f3"; style.stroke: "#ec4899"; style.stroke-width: 3
+  style.font-color: "#9d174d"; style.font-size: 20; style.bold: true
+}
+L3_S3 -> L3_S4: { style.stroke: "#f472b6"; style.stroke-width: 4 }
+L3_S4: {
+  label: "測試 + 發布\nCh11 – Ch17\n~6 小時"
+  shape: hexagon
+  style.fill: "#fce7f3"; style.stroke: "#ec4899"; style.stroke-width: 3
+  style.font-color: "#9d174d"; style.font-size: 20; style.bold: true
+}
+L3_S4 -> L3_DONE: { style.stroke: "#22c55e"; style.stroke-width: 5 }
+L3_DONE: {
+  label: "🏆 ~12 小時"
+  shape: circle
+  style.fill: "#22c55e"; style.font-color: "white"
+  style.font-size: 18; style.bold: true
+}

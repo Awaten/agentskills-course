@@ -1,0 +1,36 @@
+direction: down
+scale: 1.5
+
+L2_label: {
+  label: "🔧 實戰上手"
+  style.font-size: 28; style.font-color: "#d97706"
+  style.bold: true; shape: text
+}
+L2_label -> L2_S1: { style.stroke: "#fcd34d"; style.stroke-width: 4; style.stroke-dash: 8 }
+L2_S1: {
+  label: "S5\n從零到發布\n骰子 Skill"
+  shape: hexagon
+  style.fill: "#fef3c7"; style.stroke: "#f59e0b"; style.stroke-width: 3
+  style.font-color: "#92400e"; style.font-size: 22; style.bold: true
+}
+L2_S1 -> L2_S2: { style.stroke: "#fbbf24"; style.stroke-width: 4 }
+L2_S2: {
+  label: "S4\n7 個高效\n套路心法"
+  shape: hexagon
+  style.fill: "#fef3c7"; style.stroke: "#f59e0b"; style.stroke-width: 3
+  style.font-color: "#92400e"; style.font-size: 22; style.bold: true
+}
+L2_S2 -> L2_S3: { style.stroke: "#fbbf24"; style.stroke-width: 4 }
+L2_S3: {
+  label: "Ch4\n從零建置\n完整 Skill"
+  shape: hexagon
+  style.fill: "#fef3c7"; style.stroke: "#f59e0b"; style.stroke-width: 3
+  style.font-color: "#92400e"; style.font-size: 22; style.bold: true
+}
+L2_S3 -> L2_DONE: { style.stroke: "#22c55e"; style.stroke-width: 5 }
+L2_DONE: {
+  label: "✅ ~40 分鐘"
+  shape: circle
+  style.fill: "#22c55e"; style.font-color: "white"
+  style.font-size: 18; style.bold: true
+}

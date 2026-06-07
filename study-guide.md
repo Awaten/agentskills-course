@@ -2,8 +2,19 @@
 
 ## 不知道從哪裡開始？選你的路徑
 
-<div class="diagram-responsive">
-  <img src="/images/learning-route.svg" alt="Agent Skills 學習路線圖" />
+<div class="lane-grid">
+  <div class="lane">
+    <img src="/images/lane1.svg" alt="路徑一：新手入門" />
+    <p>🚀 新手入門 · ~20 分鐘</p>
+  </div>
+  <div class="lane">
+    <img src="/images/lane2.svg" alt="路徑二：實戰上手" />
+    <p>🔧 實戰上手 · ~40 分鐘</p>
+  </div>
+  <div class="lane">
+    <img src="/images/lane3.svg" alt="路徑三：專業路線" />
+    <p>🎓 專業路線 · ~12 小時</p>
+  </div>
 </div>
 
 ---
