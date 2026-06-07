@@ -1,5 +1,5 @@
-direction: right
-scale: 3.0
+direction: down
+scale: 2.2
 
 title: {
   label: "▎AGENT SKILLS 學習路線圖"
@@ -10,19 +10,16 @@ title: {
   style.bold: true
 }
 
-# ═══ Lane 1: 新手藍 ═══
+# ═══ L1 新手 ═══
+title -> L1_label
 L1_label: {
-  label: "🚀 新手入門"
-  style.font-size: 28
+  label: "🚀 路徑一：新手快速入門（約 20 分鐘）"
+  style.font-size: 30
   style.font-color: "#2563eb"
   style.bold: true
   shape: text
 }
-L1_label -> L1_S1: {
-  style.stroke: "#93c5fd"
-  style.stroke-width: 5
-  style.stroke-dash: 10
-}
+L1_label -> L1_S1
 L1_S1: {
   label: "S1\nAgent Skills\n是什麼？"
   shape: hexagon
@@ -45,21 +42,22 @@ L1_S3: {
 }
 L1_S3 -> L1_DONE: { style.stroke: "#22c55e"; style.stroke-width: 6 }
 L1_DONE: {
-  label: "✅ ~20 分鐘"
+  label: "✅ 掌握核心概念"
   shape: circle
   style.fill: "#22c55e"; style.font-color: "white"
   style.font-size: 22; style.bold: true
 }
 
-# ═══ Lane 2: 實戰黃 ═══
+# ═══ L2 實戰 ═══
+L1_DONE -> L2_label
 L2_label: {
-  label: "🔧 實戰上手"
-  style.font-size: 28; style.font-color: "#d97706"; style.bold: true
+  label: "🔧 路徑二：實戰派上手指南（約 40 分鐘）"
+  style.font-size: 30
+  style.font-color: "#d97706"
+  style.bold: true
   shape: text
 }
-L2_label -> L2_S1: {
-  style.stroke: "#fcd34d"; style.stroke-width: 5; style.stroke-dash: 10
-}
+L2_label -> L2_S1
 L2_S1: {
   label: "S5\n從零到發布\n骰子 Skill"
   shape: hexagon
@@ -82,21 +80,22 @@ L2_S3: {
 }
 L2_S3 -> L2_DONE: { style.stroke: "#22c55e"; style.stroke-width: 6 }
 L2_DONE: {
-  label: "✅ ~40 分鐘"
+  label: "✅ 寫過完整 Skill"
   shape: circle
   style.fill: "#22c55e"; style.font-color: "white"
   style.font-size: 22; style.bold: true
 }
 
-# ═══ Lane 3: 專家粉 ═══
+# ═══ L3 專家 ═══
+L2_DONE -> L3_label
 L3_label: {
-  label: "🎓 專業路線"
-  style.font-size: 28; style.font-color: "#be185d"; style.bold: true
+  label: "🎓 路徑三：專業系統學習（約 12 小時）"
+  style.font-size: 30
+  style.font-color: "#be185d"
+  style.bold: true
   shape: text
 }
-L3_label -> L3_S1: {
-  style.stroke: "#f9a8d4"; style.stroke-width: 5; style.stroke-dash: 10
-}
+L3_label -> L3_S1
 L3_S1: {
   label: "基礎概念\nCh1 – Ch3\n~1 小時"
   shape: hexagon
@@ -119,14 +118,14 @@ L3_S3: {
 }
 L3_S3 -> L3_S4: { style.stroke: "#f472b6"; style.stroke-width: 5 }
 L3_S4: {
-  label: "測試 + 部署\nCh11 – Ch17\n~6 小時"
+  label: "測試 + 發布\nCh11 – Ch17\n~6 小時"
   shape: hexagon
   style.fill: "#fce7f3"; style.stroke: "#ec4899"; style.stroke-width: 3
   style.font-color: "#9d174d"; style.font-size: 22; style.bold: true
 }
 L3_S4 -> L3_DONE: { style.stroke: "#22c55e"; style.stroke-width: 6 }
 L3_DONE: {
-  label: "🏆 ~12 小時"
+  label: "🏆 完整知識體系"
   shape: circle
   style.fill: "#22c55e"; style.font-color: "white"
   style.font-size: 22; style.bold: true
