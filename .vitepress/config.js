@@ -200,5 +200,10 @@ export default {
   cleanUrls: true,
 
   // 忽略死連結
-  ignoreDeadLinks: true
+  ignoreDeadLinks: true,
+
+  // Sitemap（Google Search Console 索引用）
+  sitemap: {
+    hostname: 'https://agentskills.leo-laboratory.com'
+  }
 }
