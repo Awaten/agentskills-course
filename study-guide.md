@@ -2,7 +2,9 @@
 
 ## 不知道從哪裡開始？選你的路徑
 
-<img src="/images/learning-route.svg" alt="學習路線圖" style="max-width: 100%; margin: 1rem 0;" />
+<div class="diagram-responsive">
+  <img src="/images/learning-route.svg" alt="Agent Skills 學習路線圖" />
+</div>
 
 ---
 

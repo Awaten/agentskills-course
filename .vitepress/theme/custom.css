@@ -69,3 +69,32 @@
   font-size: 0.7em;
   opacity: 0.5;
 }
+
+/* 圖表響應式容器 */
+.diagram-responsive {
+  width: 100%;
+  max-width: 100%;
+  margin: 1.5rem 0;
+  overflow-x: auto;
+}
+
+.diagram-responsive img {
+  display: block;
+  width: 100%;
+  min-width: 600px;
+  height: auto;
+}
+
+/* 手機端讓圖表縮小以維持可讀性 */
+@media (max-width: 768px) {
+  .diagram-responsive {
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .diagram-responsive img {
+    min-width: 480px;
+    width: auto;
+    height: auto;
+  }
+}
