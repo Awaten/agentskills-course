@@ -1,0 +1,67 @@
+direction: right
+
+# 學習路線圖
+start: {
+  label: "🎯 開始學習\nAgent Skills"
+  shape: circle
+  style.fill: "#2563eb"
+  style.font-color: "white"
+  style.font-size: 16
+  style.bold: true
+}
+
+start -> q: "你的背景是？" {
+  style.fill: "#f0f4ff"
+  style.font-size: 15
+}
+
+q -> r1: "新手 /\n想快速了解" {
+  style.font-color: "#64748b"
+  style.font-size: 13
+}
+q -> r2: "會寫程式 /\n想動手做" {
+  style.font-color: "#64748b"
+  style.font-size: 13
+}
+q -> r3: "想成為專家" {
+  style.font-color: "#64748b"
+  style.font-size: 13
+}
+
+r1: {
+  label: "🚀 路徑一：快速入門\nS1 → S2 → S3\n約 20 分鐘"
+  style.fill: "#dbeafe"
+  style.font-color: "#1e40af"
+  style.font-size: 14
+}
+r2: {
+  label: "🔧 路徑二：實戰派\nS5 → S4 → Ch4\n約 40 分鐘"
+  style.fill: "#fef3c7"
+  style.font-color: "#92400e"
+  style.font-size: 14
+}
+r3: {
+  label: "🎓 路徑三：系統學習\nCh1 → Ch17\n10-12 小時"
+  style.fill: "#fce7f3"
+  style.font-color: "#9d174d"
+  style.font-size: 14
+}
+
+r1 -> out1: {
+  label: "✅ 掌握核心概念\n可以開始試寫 Skill"
+  style.fill: "#dcfce7"
+  style.font-color: "#166534"
+  style.font-size: 13
+}
+r2 -> out2: {
+  label: "✅ 寫過完整 Skill\n可以優化自己的專案"
+  style.fill: "#dcfce7"
+  style.font-color: "#166534"
+  style.font-size: 13
+}
+r3 -> out3: {
+  label: "🏆 完整知識體系\n可以開課 / 接案 / 帶團隊"
+  style.fill: "#dcfce7"
+  style.font-color: "#166534"
+  style.font-size: 13
+}

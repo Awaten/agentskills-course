@@ -2,17 +2,7 @@
 
 ## 不知道從哪裡開始？選你的路徑
 
-```mermaid
-flowchart TD
-    START["🎯 開始學習 Agent Skills"]
-    START --> Q{"你的背景是？"}
-    Q -->|新手 / 想快速了解| R1["🚀 路徑一：快速入門<br>S1 → S2 → S3<br>約 20 分鐘"]
-    Q -->|會寫程式 / 想動手做| R2["🔧 路徑二：實戰派<br>S5 → S4 → Ch4<br>約 40 分鐘"]
-    Q -->|想成為專家| R3["🎓 路徑三：系統學習<br>Ch1 → Ch17<br>10-12 小時"]
-    R1 --> OUT1["✅ 掌握核心概念<br>可以開始試寫 Skill"]
-    R2 --> OUT2["✅ 寫過完整 Skill<br>可以優化自己的專案"]
-    R3 --> OUT3["🏆 完整知識體系<br>可以開課 / 接案 / 帶團隊"]
-```
+<img src="/images/learning-route.svg" alt="學習路線圖" style="max-width: 100%; margin: 1rem 0;" />
 
 ---
 
