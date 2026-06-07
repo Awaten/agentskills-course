@@ -20,7 +20,7 @@ export default {
   // ============================================================
   themeConfig: {
     // 頂部品牌標示（無 logo 圖時用純文字）
-    siteTitle: 'Leo Laboratory',
+    siteTitle: '部落格',
 
     // 頂部導覽列
     nav: [
@@ -49,7 +49,7 @@ export default {
       },
       { text: '🗺️ 學習路線', link: '/study-guide' },
       { text: '🛠️ 推薦資源', link: '/資源/tools' },
-      { text: '↗ Leo Lab', link: 'https://leo-laboratory.com' }
+      { text: '↗ Leo Laboratory', link: 'https://leo-laboratory.com' }
     ],
 
     // 側邊欄（單一篇時顯示上一篇/下一篇）
