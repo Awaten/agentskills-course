@@ -6,7 +6,8 @@
   "scripts": {
     "build:diagrams": "d2 diagrams/learning-route.d2 public/images/learning-route.svg",
     "docs:dev": "vitepress dev",
-    "docs:build": "npm run build:diagrams && vitepress build",
+    "docs:build": "vitepress build",
+    "docs:fullbuild": "npm run build:diagrams && vitepress build",
     "docs:preview": "vitepress preview"
   },
   "devDependencies": {
