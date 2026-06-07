@@ -1,0 +1,71 @@
+/* ============================================================
+   Leo Laboratory — Agent Skills Course
+   Custom CSS overrides
+   ============================================================ */
+
+/* 品牌主色 — 偏藍灰，專業感 */
+:root {
+  --vp-c-brand-1: #2563eb;
+  --vp-c-brand-2: #1d4ed8;
+  --vp-c-brand-3: #1e40af;
+  --vp-c-brand-soft: rgba(37, 99, 235, 0.14);
+
+  --vp-font-family-base: 'Inter', 'Noto Sans TC', -apple-system, BlinkMacSystemFont, sans-serif;
+  --vp-font-family-mono: 'JetBrains Mono', 'Fira Code', monospace;
+}
+
+/* Home page hero */
+.VPHero .name {
+  font-size: 3rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, #2563eb, #7c3aed);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.VPHero .text {
+  font-size: 1.5rem;
+}
+
+/* 導覽列修飾 */
+.VPNavBarTitle .title {
+  font-weight: 600;
+}
+
+/* H1 在非首頁時 */
+.vp-doc h1 {
+  background: linear-gradient(135deg, #2563eb, #7c3aed);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+}
+
+/* Call-to-action buttons */
+.VPButton.brand {
+  background: linear-gradient(135deg, #2563eb, #7c3aed) !important;
+  border: none !important;
+}
+
+/* 側邊欄活躍項目 */
+.VPSidebarItem.is-active > .item > .link > .text {
+  color: var(--vp-c-brand-1);
+  font-weight: 600;
+}
+
+/* Code blocks */
+.vp-doc div[class*='language-'] {
+  border-radius: 8px;
+}
+
+/* Tables */
+.vp-doc table {
+  display: table;
+  width: 100%;
+}
+
+/* 外部連結圖示 */
+.vp-doc a[href*='//']:not([href*='agentskills']):not([href*='leo-laboratory']):not([href*='localhost'])::after {
+  content: ' ↗';
+  font-size: 0.7em;
+  opacity: 0.5;
+}

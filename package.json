@@ -1,0 +1,15 @@
+{
+  "name": "agentskills-course-site",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Agent Skills 實戰課程 — Leo Laboratory",
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "vitepress": "^1.6.0"
+  }
+}

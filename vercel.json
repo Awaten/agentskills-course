@@ -1,0 +1,18 @@
+{
+  "buildCommand": "npm run docs:build",
+  "outputDirectory": ".vitepress/dist",
+  "framework": "vitepress",
+  "installCommand": "npm install",
+  "cleanUrls": true,
+  "headers": [
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "max-age=31536000, immutable"
+        }
+      ]
+    }
+  ]
+}
