@@ -81,20 +81,13 @@
 .diagram-responsive img {
   display: block;
   width: 100%;
-  min-width: 600px;
   height: auto;
 }
 
-/* 手機端讓圖表縮小以維持可讀性 */
+/* 手機端可橫向捲動 */
 @media (max-width: 768px) {
   .diagram-responsive {
     overflow-x: scroll;
     -webkit-overflow-scrolling: touch;
-  }
-
-  .diagram-responsive img {
-    min-width: 480px;
-    width: auto;
-    height: auto;
   }
 }
