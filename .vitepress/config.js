@@ -1,4 +1,6 @@
-export default {
+import { withMermaid } from 'vitepress-plugin-mermaid'
+
+export default withMermaid({
   // ============================================================
   // Site Config
   // ============================================================
@@ -200,5 +202,10 @@ export default {
   cleanUrls: true,
 
   // 忽略死連結
-  ignoreDeadLinks: true
-}
+  ignoreDeadLinks: true,
+
+  // Mermaid diagram support
+  mermaid: {
+    // Mermaid config options
+  }
+})

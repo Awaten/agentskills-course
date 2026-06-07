@@ -2,6 +2,21 @@
 
 ## 不知道從哪裡開始？選你的路徑
 
+```mermaid
+flowchart TD
+    START["🎯 開始學習 Agent Skills"]
+    
+    START --> Q{"你的背景是？"}
+    
+    Q -->|"新手 / 想快速了解"| R1["🚀 路徑一：快速入門<br/>S1 → S2 → S3<br/>約 20 分鐘"]
+    Q -->|"會寫程式 / 想動手做"| R2["🔧 路徑二：實戰派<br/>S5 → S4 → Ch4<br/>約 40 分鐘"]
+    Q -->|"想成為專家"| R3["🎓 路徑三：系統學習<br/>Ch1 → Ch17<br/>10-12 小時"]
+    
+    R1 --> OUT1["✅ 掌握核心概念<br/>可以開始試寫 Skill"]
+    R2 --> OUT2["✅ 寫過完整 Skill<br/>可以優化自己的專案"]
+    R3 --> OUT3["🏆 完整知識體系<br/>可以開課 / 接案 / 帶團隊"]
+```
+
 ---
 
 ## 🚀 路徑一：快速入門（建議新手）
@@ -13,7 +28,8 @@
 | 1 | 📖 秘笈 S1 | [Agent Skills 是什麼？](秘笈/01-what-are-agent-skills) | 5 min |
 | 2 | 📖 秘笈 S2 | [SKILL.md 格式 3 分鐘](秘笈/02-skills-md-format) | 5 min |
 | 3 | 📖 秘笈 S3 | [Description 觸發優化](秘笈/03-description-optimization) | 8 min |
-| **完成後** → 你已經知道 Agent Skills 的核心概念，可以直接試寫第一個 Skill |
+
+**完成後** → 你已經知道 Agent Skills 的核心概念，可以直接試寫第一個 Skill
 
 ---
 
@@ -26,7 +42,8 @@
 | 1 | 📖 秘笈 S5 | [從零到發布 — 骰子 Skill 實戰](秘笈/05-zero-to-publish) | 10 min |
 | 2 | 📖 秘笈 S4 | [7 個高效 Instructions 套路](秘笈/04-instruction-patterns) | 8 min |
 | 3 | 📚 課程 Ch4 | [從零建置第一個 Skill（完整版）](課程/02-01-quickstart) | 20 min |
-| **完成後** → 你已經寫過一個完整 Skill，可以開始優化自己的專案 |
+
+**完成後** → 你已經寫過一個完整 Skill，可以開始優化自己的專案
 
 ---
 
