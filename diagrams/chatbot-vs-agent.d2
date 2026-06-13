@@ -1,0 +1,70 @@
+direction: down
+scale: 2.0
+
+title: {
+  label: "Chatbot vs AI Agent"
+  shape: page
+  style.fill: "#0f172a"
+  style.font-color: "#f1f5f9"
+  style.font-size: 28
+  style.bold: true
+}
+
+# ─── Chatbot side ───
+title -> chatbot: "Chatbot" {
+  style.stroke: "#ef4444"
+  style.stroke-width: 3
+  style.stroke-dash: 6
+}
+
+chatbot: {
+  label: "❓ 你問一句\n🤖 它答一句\n❓ 你再問\n🤖 它再答\n⏸️ 結束"
+  shape: class
+  style.fill: "#fef2f2"
+  style.stroke: "#ef4444"
+  style.stroke-width: 3
+  style.font-color: "#991b1b"
+  style.font-size: 20
+  style.bold: true
+}
+
+# ─── Agent side ───
+title -> agent_label: "AI Agent" {
+  style.stroke: "#22c55e"
+  style.stroke-width: 3
+  style.stroke-dash: 6
+}
+
+agent_label: {
+  label: "🎯 你給目標\n🧠 它自己規劃\n🔧 它自己用工具\n✅ 它自己檢查\n🔄 不對就修正\n🏁 直到完成"
+  shape: class
+  style.fill: "#f0fdf4"
+  style.stroke: "#22c55e"
+  style.stroke-width: 3
+  style.font-color: "#166534"
+  style.font-size: 20
+  style.bold: true
+}
+
+# ─── Key difference ───
+chatbot -> diff: {
+  style.stroke: "#475569"
+  style.stroke-width: 2
+  style.stroke-dash: 4
+}
+agent_label -> diff: {
+  style.stroke: "#475569"
+  style.stroke-width: 2
+  style.stroke-dash: 4
+}
+
+diff: {
+  label: "⚡ 差別不在智商\n在自主性和行動力"
+  shape: hexagon
+  style.fill: "#fef3c7"
+  style.stroke: "#f59e0b"
+  style.stroke-width: 3
+  style.font-color: "#92400e"
+  style.font-size: 22
+  style.bold: true
+}

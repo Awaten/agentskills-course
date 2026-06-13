@@ -27,6 +27,7 @@ export default {
     // 頂部導覽列
     nav: [
       { text: '首頁', link: '/' },
+      { text: '🤖 什麼是 AI Agent', link: '/課程/ai-agent-intro' },
       {
         text: '📖 秘笈',
         items: [
