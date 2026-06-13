@@ -9,67 +9,65 @@ title: {
   style.bold: true
 }
 
-# ============== LAYER 1 ==============
-layer1: {
-  l1_llm: {
-    label: "🧠 LLM\n大腦"
-    style.fill: "#dbeafe"; style.stroke: "#3b82f6"; style.stroke-width: 3
-    style.font-color: "#1e40af"; style.font-size: 22; style.bold: true
-    shape: hexagon
-  }
-  l1_plan: {
-    label: "📋 Planning\n規劃"
-    style.fill: "#fef3c7"; style.stroke: "#f59e0b"; style.stroke-width: 3
-    style.font-color: "#92400e"; style.font-size: 22; style.bold: true
-    shape: hexagon
-  }
-  l1_tools: {
-    label: "🔧 Tools\n工具"
-    style.fill: "#dcfce7"; style.stroke: "#22c55e"; style.stroke-width: 3
-    style.font-color: "#166534"; style.font-size: 22; style.bold: true
-    shape: hexagon
-  }
-  l1_mem: {
-    label: "🗂️ Memory\n記憶"
-    style.fill: "#fce7f3"; style.stroke: "#ec4899"; style.stroke-width: 3
-    style.font-color: "#9d174d"; style.font-size: 22; style.bold: true
-    shape: hexagon
-  }
+# ============== MAIN NODES ==============
+llm: {
+  label: "🧠 LLM\n大腦"
+  style.fill: "#dbeafe"; style.stroke: "#3b82f6"; style.stroke-width: 3
+  style.font-color: "#1e40af"; style.font-size: 22; style.bold: true
+  shape: hexagon
+}
+plan: {
+  label: "📋 Planning\n規劃"
+  style.fill: "#fef3c7"; style.stroke: "#f59e0b"; style.stroke-width: 3
+  style.font-color: "#92400e"; style.font-size: 22; style.bold: true
+  shape: hexagon
+}
+tools: {
+  label: "🔧 Tools\n工具"
+  style.fill: "#dcfce7"; style.stroke: "#22c55e"; style.stroke-width: 3
+  style.font-color: "#166534"; style.font-size: 22; style.bold: true
+  shape: hexagon
+}
+mem: {
+  label: "🗂️ Memory\n記憶"
+  style.fill: "#fce7f3"; style.stroke: "#ec4899"; style.stroke-width: 3
+  style.font-color: "#9d174d"; style.font-size: 22; style.bold: true
+  shape: hexagon
 }
 
-title -> layer1: {
-  style.stroke: "#64748b"
-  style.stroke-width: 3
-}
+title -> llm: { style.stroke: "#64748b"; style.stroke-width: 3 }
+title -> plan: { style.stroke: "#64748b"; style.stroke-width: 3 }
+title -> tools: { style.stroke: "#64748b"; style.stroke-width: 3 }
+title -> mem: { style.stroke: "#64748b"; style.stroke-width: 3 }
 
-# ============== LAYER 2 - Details ==============
-l1_llm -> l2_llm: { style.stroke: "#93c5fd"; style.stroke-width: 2 }
-l1_plan -> l2_plan: { style.stroke: "#fcd34d"; style.stroke-width: 2 }
-l1_tools -> l2_tools: { style.stroke: "#86efac"; style.stroke-width: 2 }
-l1_mem -> l2_mem: { style.stroke: "#f9a8d4"; style.stroke-width: 2 }
+# ============== SUB DETAILS ==============
+llm -> llm_sub: { style.stroke: "#93c5fd"; style.stroke-width: 2 }
+plan -> plan_sub: { style.stroke: "#fcd34d"; style.stroke-width: 2 }
+tools -> tools_sub: { style.stroke: "#86efac"; style.stroke-width: 2 }
+mem -> mem_sub: { style.stroke: "#f9a8d4"; style.stroke-width: 2 }
 
-l2_llm: {
+llm_sub: {
   label: "▪ 理解任務目標\n▪ 生成執行計畫\n▪ 判斷下一步"
   shape: class
   style.fill: "#eff6ff"; style.stroke: "#93c5fd"; style.stroke-width: 2
   style.font-color: "#1e40af"; style.font-size: 16
   width: 220
 }
-l2_plan: {
+plan_sub: {
   label: "▪ 拆解大目標\n▪ 決定執行順序\n▪ 遇到阻礙調整"
   shape: class
   style.fill: "#fffbeb"; style.stroke: "#fcd34d"; style.stroke-width: 2
   style.font-color: "#92400e"; style.font-size: 16
   width: 220
 }
-l2_tools: {
+tools_sub: {
   label: "▪ 讀寫檔案\n▪ 呼叫 API\n▪ 搜尋網路\n▪ 執行程式碼"
   shape: class
   style.fill: "#f0fdf4"; style.stroke: "#86efac"; style.stroke-width: 2
   style.font-color: "#166534"; style.font-size: 16
   width: 220
 }
-l2_mem: {
+mem_sub: {
   label: "▪ 短期：對話上下文\n▪ 長期：跨任務知識"
   shape: class
   style.fill: "#fdf2f8"; style.stroke: "#f9a8d4"; style.stroke-width: 2
