@@ -101,4 +101,14 @@
   }
 }
 
+.markmap-node-text {
+  font-size: 24px !important;
+  line-height: 1.6 !important;
+}
+
+.markmap-node .markmap-node-circle + .markmap-node-text {
+  font-size: 26px !important;
+  font-weight: 700 !important;
+}
+
 
