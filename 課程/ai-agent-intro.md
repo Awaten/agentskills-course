@@ -36,7 +36,7 @@ outline: [2, 3]
 
 ## AI Agent 的核心組成
 
-```markmap
+:::markmap
 # AI Agent
 ## 🧠 LLM（大腦）
   - 理解任務目標
@@ -54,7 +54,7 @@ outline: [2, 3]
 ## 🗂️ Memory（記憶）
   - 短期：本次對話的上下文
   - 長期：跨任務累積的知識
-```
+:::
 
 ---
 
