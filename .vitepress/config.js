@@ -1,3 +1,5 @@
+import markmap from 'vitepress-plugin-markmap'
+
 export default {
   // ============================================================
   // Site Config
@@ -193,7 +195,10 @@ export default {
   // Build Config
   // ============================================================
   markdown: {
-    lineNumbers: true
+    lineNumbers: true,
+    config: (md) => {
+      md.use(markmap)
+    }
   },
 
   // Clean URLs (Vercel 支援)

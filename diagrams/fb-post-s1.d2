@@ -1,0 +1,96 @@
+direction: right
+scale: 2.0
+
+title: {
+  label: "一個資料夾 + 一個 SKILL.md = Agent 學新技能"
+  shape: page
+  style.fill: "#0f172a"
+  style.font-color: "#f1f5f9"
+  style.font-size: 28
+  style.bold: true
+}
+
+title -> step1: { style.stroke: "#3b82f6"; style.stroke-width: 4 }
+
+step1: {
+  label: "📁 my-skill/"
+  shape: cylinder
+  style.fill: "#dbeafe"
+  style.stroke: "#3b82f6"
+  style.stroke-width: 3
+  style.font-color: "#1e40af"
+  style.font-size: 24
+  style.bold: true
+}
+
+step1 -> step2: {
+  label: "包含"
+  style.stroke: "#64748b"
+  style.stroke-width: 2
+  style.stroke-dash: 6
+}
+
+step2: {
+  label: "📄 SKILL.md\n(唯一必要檔案)"
+  shape: document
+  style.fill: "#fef3c7"
+  style.stroke: "#f59e0b"
+  style.stroke-width: 3
+  style.font-color: "#92400e"
+  style.font-size: 20
+  style.bold: true
+  width: 200
+  height: 100
+}
+
+step2 -> step3: {
+  label: "放入專案"
+  style.stroke: "#22c55e"
+  style.stroke-width: 4
+}
+
+step3: {
+  label: "🤖 AI Agent\n自動學會新技能"
+  shape: hexagon
+  style.fill: "#dcfce7"
+  style.stroke: "#22c55e"
+  style.stroke-width: 3
+  style.font-color: "#166534"
+  style.font-size: 22
+  style.bold: true
+}
+
+step2 -> bonus: {
+  label: "+ 選用"
+  style.stroke: "#94a3b8"
+  style.stroke-width: 2
+  style.stroke-dash: 5
+}
+
+bonus: {
+  label: "📁 scripts/\n📁 references/\n📁 assets/"
+  shape: class
+  style.fill: "#f1f5f9"
+  style.stroke: "#94a3b8"
+  style.stroke-width: 2
+  style.font-color: "#475569"
+  style.font-size: 16
+}
+
+# Stats box
+stats: {
+  label: "🌐 30+ 平台支援\n⭐ 20K GitHub Stars\n📦 2,600+ 開源技能"
+  shape: class
+  style.fill: "#eff6ff"
+  style.stroke: "#93c5fd"
+  style.stroke-width: 2
+  style.font-color: "#1e40af"
+  style.font-size: 18
+  style.bold: true
+}
+
+step3 -> stats: {
+  style.stroke: "#93c5fd"
+  style.stroke-width: 2
+  style.stroke-dash: 6
+}
