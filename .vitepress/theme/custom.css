@@ -100,3 +100,14 @@
     flex-direction: column;
   }
 }
+
+/* Markmap 心智圖字體放大 */
+.markmap-node-text {
+  font-size: 18px !important;
+  line-height: 1.6 !important;
+}
+
+.markmap-node .markmap-node-circle + .markmap-node-text {
+  font-size: 20px !important;
+  font-weight: 700 !important;
+}
