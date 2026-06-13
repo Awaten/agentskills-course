@@ -87,37 +87,20 @@
 
 ## 🧠 課程結構導覽
 
-```markmap
+:::markmap
 # Agent Skills 實戰課程
-## 📖 秘笈快速入門（免費）
+## 📖 秘笈（免費）
   - S1：Agent Skills 是什麼？
-  - S2：SKILL.md 格式 3 分鐘
+  - S2：SKILL.md 格式
   - S3：Description 觸發優化
   - S4：7 個高效套路
   - S5：從零到發布實戰
   - S6：生態系速覽
-## 📚 系統課程
+## 📚 課程
   - 基礎概念（Ch1-3）
-    - Ch1：Agent Skills 是什麼？
-    - Ch2：三層漸進式揭露
-    - Ch3：Skills vs Tools vs MCP
   - 動手實作（Ch4-6）
-    - Ch4：從零建置第一個 Skill
-    - Ch5：SKILL.md 完整參考
-    - Ch6：跨平台測試
   - 撰寫心法（Ch7-10）
-    - Ch7：最佳實務
-    - Ch8：Description 優化
-    - Ch9：使用 Scripts
-    - Ch10：大型 Skill 架構
   - 測試驗證（Ch11-12）
-    - Ch11：Eval 系統設計
-    - Ch12：評估與迭代
   - 生態整合（Ch13-15）
-    - Ch13：平台生態總覽
-    - Ch14：API 與 MCP 整合
-    - Ch15：Skills+MCP+Subagents
   - 發布貢獻（Ch16-17）
-    - Ch16：發布與分享
-    - Ch17：社群與貢獻
-```
+:::

@@ -14,6 +14,6 @@
     "vitepress": "^1.6.0"
   },
   "dependencies": {
-    "vitepress-plugin-markmap": "^1.0.1"
+    "@vitepress-plugin/markmap": "^1.3.1"
   }
 }
