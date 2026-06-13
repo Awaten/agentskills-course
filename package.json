@@ -4,7 +4,7 @@
   "type": "module",
   "description": "Agent Skills 實戰課程 — Leo Laboratory",
   "scripts": {
-    "build:diagrams": "d2 --scale 1.5 diagrams/lane1.d2 public/images/lane1.svg && d2 --scale 1.5 diagrams/lane2.d2 public/images/lane2.svg && d2 --scale 1.5 diagrams/lane3.d2 public/images/lane3.svg && d2 --scale 2.0 diagrams/chatbot-vs-agent.d2 public/images/chatbot-vs-agent.svg",
+    "build:diagrams": "d2 --scale 1.5 diagrams/lane1.d2 public/images/lane1.svg && d2 --scale 1.5 diagrams/lane2.d2 public/images/lane2.svg && d2 --scale 1.5 diagrams/lane3.d2 public/images/lane3.svg && d2 --scale 2.0 diagrams/chatbot-vs-agent.d2 public/images/chatbot-vs-agent.svg && d2 --scale 1.8 diagrams/agent-structure.d2 public/images/agent-structure.svg",
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
     "docs:fullbuild": "npm run build:diagrams && vitepress build",

@@ -36,28 +36,9 @@ outline: [2, 3]
 
 ## AI Agent 的核心組成
 
-:::markmap
----
-height: 400
----
-# 🤖 AI Agent
-## 🧠 LLM（大腦）
-  - 理解任務目標
-  - 生成執行計畫
-  - 判斷下一步動作
-## 📋 Planning（規劃）
-  - 拆解大目標為小步驟
-  - 決定執行順序
-  - 遇到阻礙時調整
-## 🔧 Tools（工具）
-  - 讀寫檔案
-  - 呼叫 API
-  - 搜尋網路
-  - 執行程式碼
-## 🗂️ Memory（記憶）
-  - 短期：本次對話的上下文
-  - 長期：跨任務累積的知識
-:::
+<div class="diagram-responsive">
+  <img src="/images/agent-structure.svg" alt="AI Agent 核心組成" />
+</div>
 
 ---
 
