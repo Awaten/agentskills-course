@@ -1,0 +1,75 @@
+direction: down
+
+title: {
+  label: "Agent Skills · MCP · Tools · Plugins — 關係圖"
+  shape: page
+  style.fill: "#0f172a"
+  style.font-color: "#f1f5f9"
+  style.font-size: 24
+  style.bold: true
+}
+
+# ─── SKILLS ───
+skills: {
+  label: "📄 Agent Skills\n開放標準 · 流程級\n一個 SKILL.md 跨 30+ 平台複用"
+  shape: hexagon
+  style.fill: "#dbeafe"; style.stroke: "#3b82f6"; style.stroke-width: 3
+  style.font-color: "#1e40af"; style.font-size: 20; style.bold: true
+}
+
+# ─── MCP ───
+mcp: {
+  label: "🔌 MCP\n通訊協定 · 連線級\nUSB-C 類比：連接外部系統"
+  shape: hexagon
+  style.fill: "#ede9fe"; style.stroke: "#8b5cf6"; style.stroke-width: 3
+  style.font-color: "#5b21b6"; style.font-size: 20; style.bold: true
+}
+
+# ─── TOOLS ───
+tools: {
+  label: "🔧 Tools\n單一函式 · 功能級\nsearch() · calc() · readFile()"
+  shape: hexagon
+  style.fill: "#dcfce7"; style.stroke: "#22c55e"; style.stroke-width: 3
+  style.font-color: "#166534"; style.font-size: 20; style.bold: true
+}
+
+# ─── PLUGINS ───
+plugins: {
+  label: "🧩 Plugins\n平台擴充 · 平台級\n⚠️ 鎖定單一平台，不可跨用"
+  shape: hexagon
+  style.fill: "#f1f5f9"; style.stroke: "#94a3b8"; style.stroke-width: 2
+  style.stroke-dash: 5
+  style.font-color: "#475569"; style.font-size: 20; style.bold: true
+}
+
+# ─── CONNECTIONS ───
+title -> skills: "流程級知識封裝" { style.stroke: "#3b82f6"; style.stroke-width: 3 }
+title -> mcp: "通訊級系統連接" { style.stroke: "#8b5cf6"; style.stroke-width: 3 }
+title -> tools: "函式級原子操作" { style.stroke: "#22c55e"; style.stroke-width: 3 }
+title -> plugins: "平台級擴充元件" { style.stroke: "#94a3b8"; style.stroke-width: 2; style.stroke-dash: 5 }
+
+skills -> mcp: "Skills 可指示 Agent\n透過 MCP 連接外部系統" {
+  style.stroke: "#3b82f6"; style.stroke-width: 2; style.stroke-dash: 6
+}
+
+skills -> tools: "Skills 可呼叫 Tools\n作為執行步驟" {
+  style.stroke: "#22c55e"; style.stroke-width: 2; style.stroke-dash: 6
+}
+
+mcp -> tools: "MCP Server 可包裝\nTools 為遠端功能" {
+  style.stroke: "#8b5cf6"; style.stroke-width: 2; style.stroke-dash: 6
+}
+
+plugins -> tools: "Plugins 封裝 Tools\n提供平台整合" {
+  style.stroke: "#94a3b8"; style.stroke-width: 2; style.stroke-dash: 5
+}
+
+# ─── SOURCES ───
+sources: {
+  label: "資料來源\nagentskills.io · modelcontextprotocol.io"
+  shape: class
+  style.fill: "#f8fafc"; style.stroke: "#cbd5e1"; style.stroke-width: 1
+  style.font-color: "#64748b"; style.font-size: 14
+}
+
+title -> sources: { style.stroke: "#cbd5e1"; style.stroke-width: 1; style.stroke-dash: 8 }
