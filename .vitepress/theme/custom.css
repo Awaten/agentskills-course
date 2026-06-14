@@ -155,6 +155,64 @@
   }
 }
 
+/* 層級共存關係圖 */
+.coexist-flow {
+  margin: 1.5rem 0;
+  padding: 1.25rem;
+  background: #f8fafc;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.coexist-node {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 0.95em;
+  margin: 0.25rem;
+}
+
+.coexist-node em {
+  font-weight: 400;
+  font-size: 0.82em;
+  opacity: 0.7;
+  display: block;
+}
+
+.coexist-node.skills { background: #dbeafe; color: #1e40af; }
+.coexist-node.mcp    { background: #ede9fe; color: #5b21b6; }
+.coexist-node.tools  { background: #dcfce7; color: #166534; }
+.coexist-node.plugins{ background: #f1f5f9; color: #475569; }
+
+.coexist-arrows {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 0.3rem 0;
+}
+
+.coexist-arrow {
+  font-size: 0.85em;
+  color: #64748b;
+  min-width: 120px;
+}
+
+.coexist-mid, .coexist-bottom {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.coexist-bottom span:first-child { min-width: 140px; }
+
+.coexist-note {
+  margin-top: 0.75rem;
+  font-size: 0.9em;
+  color: #475569;
+  font-weight: 600;
+}
+
 
 .lane-grid .lane {
   flex: 1;
