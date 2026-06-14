@@ -28,7 +28,7 @@ outline: [2, 3]
 
 ## 2.1 核心問題：Context Window 不是無限的
 
-所有大型語言模型都有 context window 的限制——Claude 4 是 200K tokens，GPT-4o 是 128K tokens，Gemini 2.5 Pro 是 1M tokens。聽起來很多，對吧？
+所有大型語言模型（LLM）都有 context window 的限制——Claude 4 是 200K tokens，GPT-4o 是 128K tokens，Gemini 2.5 Pro 是 1M tokens。聽起來很多，對吧？
 
 實際帳算不是這樣算的。
 
@@ -40,7 +40,7 @@ outline: [2, 3]
 50 × 3,000 = 150,000 tokens
 ```
 
-已經吃掉 Claude 4 的 75% context window。**而且這還只是技能本身，還沒算對話歷史、工具定義、使用者輸入、系統提示。**
+已經吃掉 Claude 4 的 75% context window。**而且這還只是技能本身，還沒算對話歷史、工具定義、使用者輸入、系統提示（System Prompt）。**
 
 真實場景中，Agent 還需要保留大量 context 給：
 

@@ -25,7 +25,7 @@ outline: [2, 3]
 
 ---
 
-## 8.1 Description 是唯一的觸發機制
+## 8.1 Description 是唯一的觸發機制（Trigger Mechanism）
 
 在 Agent Skills 的三層漸進式揭露架構中，description 的角色極其特殊：
 

@@ -12,7 +12,7 @@ outline: [2, 3]
 
 ## Hook：你能想像一個 AI 格式，只靠一個檔案就風靡全球嗎？
 
-2025 年底，Anthropic 發布了一個開放標準。
+2025 年底，Anthropic 發布了一個開放標準（Open Standard）。
 
 沒有 SDK，沒有複雜的 CLI，沒有數百頁的 spec。
 
@@ -108,7 +108,7 @@ SKILL.md 的 frontmatter 用 YAML 格式，夾在 `---` 之間。總共就五個
 
 不是因為它最長，而是因為它是**唯一決定 Agent 會不會載入這個技能的東西**。
 
-Agent Skills 的觸發機制是：**Agent 自己判斷當前情境是否匹配某個技能的 description。** 注意，它沒得選，它只能看 description。
+Agent Skills 的觸發機制（Trigger Mechanism）是：**Agent 自己判斷當前情境是否匹配某個技能的 description。** 注意，它沒得選，它只能看 description。
 
 這造成一個嚴重的實務問題：
 

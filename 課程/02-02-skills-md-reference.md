@@ -103,7 +103,7 @@ outline: [2, 3]
 
 `description` 是整份 SKILL.md **最重要的欄位**。不是因為它最長（確實也是最長的），而是因為它是 **Agent 判斷「現在需不需要載入這個技能」的唯一依據**。
 
-### 觸發機制
+### 觸發機制（Trigger Mechanism）
 
 Agent 的運作流程大致如下：
 

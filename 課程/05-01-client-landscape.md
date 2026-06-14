@@ -19,7 +19,7 @@ outline: [2, 3]
 3. **解釋** progressive disclosure（漸進式揭露）如何讓代理人在大量技能中維持低語境成本
 4. **操作** 至少三種不同的安裝方式：手動複製、CLI 安裝、Marketplace 安裝
 5. **評估** 不同平台對你的開發工作流程的適合度，並做出有依據的選擇
-6. **描述** agentskills.io 開放標準的演進歷程與生態意義
+6. **描述** agentskills.io 開放標準（Open Standard）的演進歷程與生態意義
 
 ---
 
@@ -95,7 +95,7 @@ outline: [2, 3]
 | **Zed** | 支援 `skills/` 目錄 |
 | **Replit** | 透過 Agent 設定載入 |
 
-如果你的團隊已經綁定某個 IDE（例如 JetBrains 生態），Tier 3 的支援方式讓你不必為了技能而更換工具。但要注意：這些平台的技能載入通常是 **靜態的**——也就是在系統提示詞中預先塞入所有指令，而非 progressive disclosure。這代表技能數量過多時可能吃掉大量上下文視窗。
+如果你的團隊已經綁定某個 IDE（例如 JetBrains 生態），Tier 3 的支援方式讓你不必為了技能而更換工具。但要注意：這些平台的技能載入通常是 **靜態的**——也就是在系統提示（System Prompt）詞中預先塞入所有指令，而非 progressive disclosure。這代表技能數量過多時可能吃掉大量上下文視窗（Context Window）。
 
 ---
 

@@ -540,7 +540,7 @@ Eval 分數在進步嗎？
 
 ### 背景
 
-一個內部用的 `pdf-extract` Skill，任務是從 PDF 中提取文字、表格、和中繼資料。
+一個內部用的 `pdf-extract` Skill，任務是從 PDF 中提取文字、表格、和中繼資料（Metadata）。
 
 ### Version Matrix
 

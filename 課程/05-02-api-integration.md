@@ -212,7 +212,7 @@ def fetch_with_retry(url: str, headers: dict, max_retries: int = 3) -> dict:
 
 | | Skills | MCP |
 |---|---|---|
-| **角色** | 專業知識封裝 | 外部系統連接 |
+| **角色** | 專業知識封裝（Knowledge Encapsulation） | 外部系統連接 |
 | **本質** | .md 文字指令 | 通訊協定（JSON-RPC） |
 | **告訴 Agent** | 怎麼做這件事 | 怎麼連那個 API |
 | **需要寫程式** | 不用 | 要（寫 Server） |

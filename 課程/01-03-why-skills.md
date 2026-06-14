@@ -15,7 +15,7 @@ outline: [2, 3]
 1. **區分** Agent 四種擴充機制的本質差異：Tools、Skills、MCP、Plugins
 2. **判斷** 在什麼情境下該採用哪一種機制
 3. **設計** 同時使用四種機制的混合架構
-4. **評估** Skills 作為開放標準相對於 Plugins 的長期優勢
+4. **評估** Skills 作為開放標準（Open Standard）相對於 Plugins 的長期優勢
 5. **應用** 決策框架來選擇適當的擴充方式
 
 ---

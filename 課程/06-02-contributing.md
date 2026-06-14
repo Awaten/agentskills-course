@@ -127,7 +127,7 @@ agentskill publish ./my-skills/db-backup
 
 這是最深層次、也最有影響力的回報。
 
-Agent Skills 是一個仍在快速演進的開放標準。規格文件中每一個欄位的設計、每一條限制的制定，都是透過 RFC（Request for Comments）流程由社群共同決定的。
+Agent Skills 是一個仍在快速演進的開放標準（Open Standard）。規格文件中每一個欄位的設計、每一條限制的制定，都是透過 RFC（Request for Comments）流程由社群共同決定的。
 
 當你參與規格討論時，你不只是在「使用」這個標準——你是在「塑造」它。
 

@@ -1,6 +1,6 @@
 ---
 title: "秘笈 S3：Description 寫對，Agent 就會用 — 90% 的 Skill 沒被觸發都是 description 寫錯"
-description: "Description 是 Agent 決定是否載入 Skill 的唯一觸發機制。學會 Pushy Description 配方 + Trigger Eval 測試法 + 60/40 Train/Validation 分割，告別 Skill 沒人用的悲劇。"
+description: "Description 是 Agent 決定是否載入 Skill 的唯一觸發機制（Trigger Mechanism）。學會 Pushy Description 配方 + Trigger Eval 測試法 + 60/40 Train/Validation 分割，告別 Skill 沒人用的悲劇。"
 outline: [2, 3]
 ---
 

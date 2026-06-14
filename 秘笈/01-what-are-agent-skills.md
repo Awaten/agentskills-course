@@ -46,7 +46,7 @@ my-skill/
 
 ## 從哪來的？
 
-2025 年底，**Anthropic**（Claude 的開發商）發布了這個開放標準。
+2025 年底，**Anthropic**（Claude 的開發商）發布了這個開放標準（Open Standard）。
 
 不是封閉規格，沒有 vendor lock-in。開放格式，任何人、任何平台都可以實作。
 
@@ -88,7 +88,7 @@ Agent Skills 解決的，就是這個問題。
 
 | | Tools | MCP | Plugins | Agent Skills |
 |---|---|---|---|---|
-| **本質** | 單一函式 | 通訊協定 | 平台擴充 | 專業知識封裝 |
+| **本質** | 單一函式 | 通訊協定 | 平台擴充 | 專業知識封裝（Knowledge Encapsulation） |
 | **舉例** | `search()`、`calc()` | 連資料庫、連 API | VS Code 插件 | FB 發布流程、程式碼審查 |
 | **跨平台** | ✅ 是 | ✅ 是 | ❌ 綁平台 | ✅ 純文字檔 |
 | **要寫程式？** | 要 | 要 | 要看平台 | **不用**（.md 就行） |
