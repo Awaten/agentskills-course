@@ -1041,7 +1041,10 @@ Skill 已經很成熟了。這時要關注的是：
 - `customer.name` 欄位可能包含空值，`CONCAT` 會因此回傳 NULL
 - 公司規定 CSV 的欄位分隔符號是 `|`（pipe），不是逗號
 
-**提示**：參考 §7.6 的 Gotchas 格式——具體、可驗證、有後果。
+<details class="exercise-hint">
+<summary>💡 提示</summary>
+參考 §7.6 的 Gotchas 格式——具體、可驗證、有後果。
+</details>
 
 ---
 
@@ -1064,7 +1067,10 @@ Skill 已經很成熟了。這時要關注的是：
 2. 設計 Fail 次數超過多少次後要 STOP
 3. 加上「校驗失敗處理規則」區塊
 
-**提示**：參考 §7.8 的 Validation Loop 範例。不同步驟的檢查方式不同：
+<details class="exercise-hint">
+<summary>💡 提示</summary>
+參考 §7.8 的 Validation Loop 範例。不同步驟的檢查方式不同：
+</details>
 
 - **Step 1 Check**：`input/` 資料夾存在嗎？`.jpg` 檔案至少有一個嗎？檔案大小都大於 0 嗎？
 - **Step 2 Check**：縮放後的圖片真的是 800x600 嗎？用 `PIL.Image.open().size` 確認。所有圖片都成功處理了嗎？（數量跟輸入一致？）
@@ -1101,7 +1107,10 @@ Skill 已經很成熟了。這時要關注的是：
 5. 每個規則附上理由
 6. 包含輸出格式模板（部署完成後回傳什麼格式的結果？）
 
-**提示**：回想你實際做過的部署流程。你在哪一步最常出錯？那一步就需要最詳細的 instruction。
+<details class="exercise-hint">
+<summary>💡 提示</summary>
+回想你實際做過的部署流程。你在哪一步最常出錯？那一步就需要最詳細的 instruction。
+</details>
 
 ### 練習 3 的引導問題
 

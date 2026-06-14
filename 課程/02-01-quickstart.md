@@ -700,7 +700,10 @@ Agent Skill 的開發遵循一個可重複的七步驟流程：
 ### Q1（建置練習）— 建立 Greeting Skill
 按照本章的步驟，從零建立一個 `greeting-skill`，使其在 Agent 收到「打招呼」類請求時觸發，並輸出固定格式的回覆：「👋 Hello, {name}! Welcome to Agent Skills.」
 
-**提示**：這個練習不需要 Python 腳本——純 SKILL.md 即可完成。專注於 description 的觸發詞設計，確保 `"hello"`、`"hi"`、`"greetings"` 等關鍵字都能觸發，但 `"help"` 或 `"start"` 這類不相關的詞不會誤觸。
+<details class="exercise-hint">
+<summary>💡 提示</summary>
+這個練習不需要 Python 腳本——純 SKILL.md 即可完成。專注於 description 的觸發詞設計，確保 `"hello"`、`"hi"`、`"greetings"` 等關鍵字都能觸發，但 `"help"` 或 `"start"` 這類不相關的詞不會誤觸。
+</details>
 
 **完成標準**：
 - SKILL.md 含有效 frontmatter（name + description）
@@ -710,7 +713,10 @@ Agent Skill 的開發遵循一個可重複的七步驟流程：
 ### Q2（修改練習）
 修改本章的 `roll-dice` Skill，將骰子面數的預設值從 6 改為 20，並更新 SKILL.md 中的步驟說明與輸出範例，使其保持一致。
 
-**提示**：需要修改兩個地方——`scripts/roll.py` 的 `default=6` 參數，以及 SKILL.md 中所有提及預設值的範例。
+<details class="exercise-hint">
+<summary>💡 提示</summary>
+需要修改兩個地方——`scripts/roll.py` 的 `default=6` 參數，以及 SKILL.md 中所有提及預設值的範例。
+</details>
 
 ### Q3（強化練習）
 為 `roll-dice` Skill 加入錯誤處理機制。在 SKILL.md 中新增一個 Troubleshooting 段落，涵蓋以下情境：
@@ -718,12 +724,18 @@ Agent Skill 的開發遵循一個可重複的七步驟流程：
 - Python 環境未安裝時該怎麼處理
 - 腳本回傳非零 exit code 時的應對步驟
 
-**提示**：參考 4.12 節（常見問題排除）的表格格式，用「問題 → 原因 → 解決方案」的結構撰寫。
+<details class="exercise-hint">
+<summary>💡 提示</summary>
+參考 4.12 節（常見問題排除）的表格格式，用「問題 → 原因 → 解決方案」的結構撰寫。
+</details>
 
 ### Q4（設計練習）— 安全的 API 金鑰處理
 你有一個需要 API 金鑰的第三方服務。請在 SKILL.md 中設計一套機制，讓使用者可以安全地提供金鑰，而不需要將金鑰寫死在 SKILL.md 或腳本中。
 
-**提示**：搜尋「environment variables」在 Agent Skills 中的常見使用模式。思考 `.env` 檔案的優缺點——它雖然避免了金鑰寫死在程式碼中，但 `.env` 檔案本身仍可能被不小心提交到 Git 倉庫。
+<details class="exercise-hint">
+<summary>💡 提示</summary>
+搜尋「environment variables」在 Agent Skills 中的常見使用模式。思考 `.env` 檔案的優缺點——它雖然避免了金鑰寫死在程式碼中，但 `.env` 檔案本身仍可能被不小心提交到 Git 倉庫。
+</details>
 
 **完成標準**：
 - SKILL.md 中沒有任何明文 API 金鑰

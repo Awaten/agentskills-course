@@ -972,8 +972,10 @@ Use `pandas.read_csv(filepath, encoding='utf-8-sig', dtype=str)`.
 
 請寫出完整的 frontmatter + body（至少包含 Steps、Gotchas、Verification 段落）。
 
-**提示**：
+<details class="exercise-hint">
+<summary>💡 提示</summary>
 - Frontmatter 至少要有 `name` 和 `description`，建議加上 `license` 和 `metadata`
+</details>
 - Description 要包含三層訊息（核心功能 + 觸發情境 + 獨特價值）
 - Steps 要包含判斷點（如「如果檔案不存在」或「如果空值率過高」）
 - Gotchas 至少寫 2 個環境特定陷阱
@@ -1011,8 +1013,10 @@ description: |
 
 請設計 5 筆「應該觸發」和 5 筆「不該觸發」的測試查詢，並解釋你的選擇邏輯。
 
-**提示**：
+<details class="exercise-hint">
+<summary>💡 提示</summary>
 - 應該觸發的查詢應該包含：直接請求（「幫我轉 PDF」）、間接請求（「我要匯出這份文件」）、技術查詢（「markdown 轉 PDF 怎麼做」）
+</details>
 - 不該觸發的查詢應該測試邊界：請求轉成其他格式（「轉成 Word」）、不相關任務（「幫我找餐廳」）、相關但不匹配的任務（「幫我編輯這個 markdown」——只是編輯，不是轉換）
 
 ---

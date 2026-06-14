@@ -388,7 +388,10 @@ Level 3（食材）:  地瓜粉、魚露、檸檬汁、辣椒、蒜頭...
 
 請用你自己的話解釋：如果不採用三層架構，直接將所有技能的完整內容載入 Agent 的 context window，會發生哪些具體問題？請列出至少兩個 Layer 的問題。
 
-> **提示**：回想 2.1 節的 token 計算和 2.6 節的方案比較。
+<details class="exercise-hint">
+<summary>💡 提示</summary>
+回想 2.1 節的 token 計算和 2.6 節的方案比較。
+</details>
 
 ---
 
@@ -409,7 +412,10 @@ Level 3（食材）:  地瓜粉、魚露、檸檬汁、辣椒、蒜頭...
 
 請解釋這個數字背後的兩個理由：(a) 技術面——超過這個長度對 Agent 行為的具體影響；(b) 實務面——這個限制迫使技能作者做出什麼取捨？
 
-> **提示**：參考 2.4 節的 Anthropic 研究和 2.8 節。
+<details class="exercise-hint">
+<summary>💡 提示</summary>
+參考 2.4 節的 Anthropic 研究和 2.8 節。
+</details>
 
 ---
 

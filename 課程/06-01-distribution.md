@@ -791,7 +791,10 @@ agentskill.sh search "docker logs"
 ### Q1（發布管道選擇）
 你的團隊開發了一套內部部署流程的 Agent Skills，包含前置檢查、滾動更新、健康檢查、回滾四個技能。這些技能包含公司的基礎設施細節，不適合公開。你應該選擇哪一種發布方式？請說明理由。
 
-**提示**：考慮安全性與安裝便利性的平衡。
+<details class="exercise-hint">
+<summary>💡 提示</summary>
+考慮安全性與安裝便利性的平衡。
+</details>
 
 ### Q2（Skillset 設計）
 參考 Q1 的四個技能，請設計一個 `deployment-workflow` Skillset 的 `agentskill.json` 草稿。包含：
@@ -799,7 +802,10 @@ agentskill.sh search "docker logs"
 - 四個技能的相依關係（假設版本皆為 1.x）
 - 適當的相容性設定
 
-**提示**：版本範圍使用 Caret（^）。
+<details class="exercise-hint">
+<summary>💡 提示</summary>
+版本範圍使用 Caret（^）。
+</details>
 
 ### Q3（語意化版本判斷）
 以下是 `docker-log-analyzer` 技能的三次變更，請分別判斷應該 bump MAJOR、MINOR 還是 PATCH：
@@ -808,12 +814,18 @@ agentskill.sh search "docker logs"
 (b) 新增一個步驟：在分析日誌前先檢查容器是否在執行
 (c) 將 `name` 從 `docker-log-analyzer` 改為 `container-log-analyzer`
 
-**提示**：回顧 16.5.2 的變更類型對照表。
+<details class="exercise-hint">
+<summary>💡 提示</summary>
+回顧 16.5.2 的變更類型對照表。
+</details>
 
 ### Q4（授權選擇）
 你寫了一個 `interview-question-generator` 技能，希望被廣泛使用，但你不想讓別人把它包成商業產品販賣。你應該選擇哪一種授權？為什麼？
 
-**提示**：沒有任何授權可以完全禁止商業使用——你需要理解每種授權在商用上的限制差異。
+<details class="exercise-hint">
+<summary>💡 提示</summary>
+沒有任何授權可以完全禁止商業使用——你需要理解每種授權在商用上的限制差異。
+</details>
 
 ### Q5（Description 優化）
 以下是三個不夠好的 description，請改寫成對搜尋和觸發都更友善的版本：
@@ -822,7 +834,10 @@ agentskill.sh search "docker logs"
 (b) `"Database backup helper."`
 (c) `"Useful for writing tests."`
 
-**提示**：加入具體的使用情境、觸發時機、和搜尋關鍵字。
+<details class="exercise-hint">
+<summary>💡 提示</summary>
+加入具體的使用情境、觸發時機、和搜尋關鍵字。
+</details>
 
 ### 進階挑戰（Q6）
 將你之前寫過的任何一個 SKILL.md（或本章的 docker-log-analyzer 案例）準備好發布：

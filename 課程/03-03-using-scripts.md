@@ -1077,7 +1077,10 @@ cat stderr.log
 
 請簡要說明 Agent Skills 中的 Script 與純文字指令（SKILL.md 中的步驟描述）各自適合處理什麼類型的任務？你判斷的標準是什麼？
 
-**提示**：思考 LLM 擅長與不擅長的事。如果你要計算 1,000 個檔案的 SHA256 雜湊值，你會用 Script 還是純文字指令？為什麼？
+<details class="exercise-hint">
+<summary>💡 提示</summary>
+思考 LLM 擅長與不擅長的事。如果你要計算 1,000 個檔案的 SHA256 雜湊值，你會用 Script 還是純文字指令？為什麼？
+</details>
 
 ---
 
@@ -1097,7 +1100,10 @@ result = {"word_count": count_words(text)}
 print(result)
 ```
 
-**提示**：至少缺少 4 個必要結構。對照 §9.3 的列表逐一檢查。
+<details class="exercise-hint">
+<summary>💡 提示</summary>
+至少缺少 4 個必要結構。對照 §9.3 的列表逐一檢查。
+</details>
 
 ---
 
@@ -1131,7 +1137,10 @@ Script 的使用方式：
 python scripts/merge_csv.py --input-dir ./raw_data/ --output merged.csv --delimiter "|"
 ```
 
-**提示**：回想 §9.4 的 Execution 章節結構。不要只寫執行指令——Agent 需要知道檢查什麼、驗證什麼、以及哪裡可能出錯。
+<details class="exercise-hint">
+<summary>💡 提示</summary>
+回想 §9.4 的 Execution 章節結構。不要只寫執行指令——Agent 需要知道檢查什麼、驗證什麼、以及哪裡可能出錯。
+</details>
 
 ---
 

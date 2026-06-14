@@ -213,6 +213,33 @@
   font-weight: 600;
 }
 
+/* 練習題提示下拉 */
+.exercise-hint {
+  margin: 0.5rem 0 1rem 0;
+  padding: 0.6rem 1rem;
+  background: #eff6ff;
+  border-left: 3px solid #3b82f6;
+  border-radius: 0 6px 6px 0;
+}
+
+.exercise-hint summary {
+  cursor: pointer;
+  color: #2563eb;
+  font-weight: 600;
+  font-size: 0.9em;
+  padding: 0.1rem 0;
+}
+
+.exercise-hint summary:hover {
+  color: #1d4ed8;
+}
+
+.exercise-hint p {
+  margin-top: 0.4rem;
+  font-size: 0.9em;
+  color: var(--vp-c-text-2);
+}
+
 
 .lane-grid .lane {
   flex: 1;

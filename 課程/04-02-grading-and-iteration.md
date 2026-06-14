@@ -786,7 +786,10 @@ Safety Score: 1.00 ✅
 2. **Output Quality 問題**：三個 fail cases 的共同 root cause 是什麼？（提示：都在同一個 SKILL.md 區塊）
 3. **綜合分析**：如果要只改一個地方來解決最多的問題，你改哪裡？為什麼？
 
-**提示**：Instruction Following 的 Case 1（跳過 Step 2）和 Case 2（用了不同工具）可能指向同一個根源——步驟設計問題。Case 3（錯誤的去重邏輯）則可能是 instruction 寫得不夠精確。
+<details class="exercise-hint">
+<summary>💡 提示</summary>
+Instruction Following 的 Case 1（跳過 Step 2）和 Case 2（用了不同工具）可能指向同一個根源——步驟設計問題。Case 3（錯誤的去重邏輯）則可能是 instruction 寫得不夠精確。
+</details>
 
 ---
 
@@ -846,7 +849,10 @@ Safety: 0.75
 3. **混合優化**：你能不能從 A 和 B 中各取一部分，組合成一個 C 版本？具體來說，你會從 A 拿什麼、從 B 拿什麼？
 4. **預測 C 版本的分數**：你預期 C 版本的 eval 分數大概會是多少？
 
-**提示**：這題沒有標準答案。重點是你的推理過程——你必須為每一個選擇給出「為什麼」。
+<details class="exercise-hint">
+<summary>💡 提示</summary>
+這題沒有標準答案。重點是你的推理過程——你必須為每一個選擇給出「為什麼」。
+</details>
 
 ---
 

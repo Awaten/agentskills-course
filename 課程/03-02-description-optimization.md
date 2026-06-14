@@ -767,8 +767,10 @@ pdf 的表格資料
 2. 設計 10 筆負向測試查詢（不應該觸發的場景）
 3. 標註出其中你認為最難的 3 個負向案例（最容易誤觸發的邊界情況）
 
-**提示**：
+<details class="exercise-hint">
+<summary>💡 提示</summary>
 - 使用者會用什麼方式表達 GitHub 相關的任務？
+</details>
 - 哪些 GitHub 任務其實不屬於這個 Skill？（例如 clone repo 應該用 git 而非 github-automation）
 - 哪些「聽起來像 GitHub 但不是 GitHub」的任務？（例如「幫我 review 這份文件」vs「幫我 review 這個 PR」）
 
@@ -788,7 +790,10 @@ Create charts and graphs from data. Supports various chart types.
 3. 推測可能的失敗查詢類型（使用者說什麼話時這個 description 會無法觸發？）
 4. 改寫這個 description，目標觸發率 >0.7
 
-**提示**：參考 8.3 的對比分析方法，從關鍵字、門檻條件、使用情境、負面案例、even if 句五個面向分析。
+<details class="exercise-hint">
+<summary>💡 提示</summary>
+參考 8.3 的對比分析方法，從關鍵字、門檻條件、使用情境、負面案例、even if 句五個面向分析。
+</details>
 
 ---
 
@@ -837,7 +842,10 @@ Analyze system logs and identify errors, warnings, and anomalies. Supports multi
 2. 為兩個 description 分別設計 5 筆邊界測試查詢
 3. 說明你的 description 如何解決這個衝突
 
-**提示**：參考 8.11 的協調策略——差異化描述、負面案例互補、明確的任務分配。
+<details class="exercise-hint">
+<summary>💡 提示</summary>
+參考 8.11 的協調策略——差異化描述、負面案例互補、明確的任務分配。
+</details>
 
 ---
 

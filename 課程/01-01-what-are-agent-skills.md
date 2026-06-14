@@ -425,22 +425,34 @@ description: >
 ### Q1（概念理解）
 Agent Skills 主要解決的是 AI Agent 的什麼問題？請用 2-3 句話說明。
 
-**提示**：思考 Agent 在真實專案中執行任務時缺少什麼。
+<details class="exercise-hint">
+<summary>💡 提示</summary>
+思考 Agent 在真實專案中執行任務時缺少什麼。
+</details>
 
 ### Q2（比較分析）
 請說明 Agent Skills 與 MCP Server 在本質上的差異。它們各自解決的是什麼層次的問題？
 
-**提示**：一個是「內部知識」，一個是「外部連通」。
+<details class="exercise-hint">
+<summary>💡 提示</summary>
+一個是「內部知識」，一個是「外部連通」。
+</details>
 
 ### Q3（架構理解）
 Progressive Disclosure 三層架構分別是什麼？為什麼需要這樣的設計？
 
-**提示**：從 Token 效率的角度思考。
+<details class="exercise-hint">
+<summary>💡 提示</summary>
+從 Token 效率的角度思考。
+</details>
 
 ### Q4（生態認知）
 請列出至少 3 個支援 Agent Skills 的平台，並說明跨平台相容為什麼重要。
 
-**提示**：想想如果 Skills 只能用在單一平台會發生什麼事。
+<details class="exercise-hint">
+<summary>💡 提示</summary>
+想想如果 Skills 只能用在單一平台會發生什麼事。
+</details>
 
 ### 進階挑戰（Q5）
 前往 [agentskills.io](https://agentskills.io) 閱讀官方規格，找出 SKILL.md 中：

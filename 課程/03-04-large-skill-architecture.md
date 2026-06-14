@@ -1073,7 +1073,10 @@ def test_sub_skill_order():
 - scripts/ 中包含一個通用的 validate.sh 範本
 - references/ 中包含一個空的 CHANGELOG.md
 
-> **提示**：參考 10.6 節的模板模式與範例腳本。
+<details class="exercise-hint">
+<summary>💡 提示</summary>
+參考 10.6 節的模板模式與範例腳本。
+</details>
 
 ---
 

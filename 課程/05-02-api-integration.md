@@ -934,7 +934,10 @@ jobs:
 
 請說明 Agent Skills 與 MCP 在外部系統整合中的角色差異。什麼情況該用直接 API 呼叫？什麼情況該用 MCP Server？
 
-**提示**：思考「一次性整合」vs「跨 Skills 共用」的場景差異。如果你要寫一個只在自己專案中用一次的 Slack 通知 Skill，你會用哪種方式？
+<details class="exercise-hint">
+<summary>💡 提示</summary>
+思考「一次性整合」vs「跨 Skills 共用」的場景差異。如果你要寫一個只在自己專案中用一次的 Slack 通知 Skill，你會用哪種方式？
+</details>
 
 ---
 
@@ -959,7 +962,10 @@ print(get_weather("台北"))
 
 請至少指出 4 個問題，並說明如何修正。
 
-**提示**：考慮 API Key 管理、HTTP 錯誤處理、逾時設定、速率限制、輸出格式。
+<details class="exercise-hint">
+<summary>💡 提示</summary>
+考慮 API Key 管理、HTTP 錯誤處理、逾時設定、速率限制、輸出格式。
+</details>
 
 ---
 
