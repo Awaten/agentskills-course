@@ -349,7 +349,7 @@ description: >
 
 一句話總結：
 
-> **Tools 給你能力，MCP 給你連通力，Plugins 給你平台力，Agent Skills 給你專業力。**
+> **Tools 是 App 裡的功能，MCP 是藍牙和 WiFi，Plugins 是 iPhone 專用接頭，Agent Skills 是整本使用說明書。**
 
 ---
 
