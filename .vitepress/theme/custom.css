@@ -84,12 +84,6 @@
   height: auto;
 }
 
-.diagram-responsive.wide img {
-  width: auto;
-  min-width: 100%;
-  max-width: none;
-}
-
 /* 手機端可橫向捲動 */
 @media (max-width: 768px) {
   .diagram-responsive {
