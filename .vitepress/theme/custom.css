@@ -99,6 +99,63 @@
   margin: 1.5rem 0;
 }
 
+/* 四色概念卡片 */
+.concept-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.75rem;
+  margin: 1.5rem 0;
+}
+
+.concept-card {
+  border-radius: 10px;
+  padding: 1rem 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.concept-card strong {
+  font-size: 1.1em;
+}
+
+.concept-card span {
+  font-size: 0.95em;
+  color: var(--vp-c-text-2);
+}
+
+.concept-card small {
+  font-size: 0.82em;
+  opacity: 0.75;
+}
+
+.concept-card.skills {
+  background: #eff6ff;
+  border-left: 4px solid #3b82f6;
+}
+
+.concept-card.mcp {
+  background: #f5f3ff;
+  border-left: 4px solid #8b5cf6;
+}
+
+.concept-card.tools {
+  background: #f0fdf4;
+  border-left: 4px solid #22c55e;
+}
+
+.concept-card.plugins {
+  background: #f8fafc;
+  border-left: 4px solid #94a3b8;
+}
+
+@media (max-width: 480px) {
+  .concept-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+
 .lane-grid .lane {
   flex: 1;
   min-width: 0;
