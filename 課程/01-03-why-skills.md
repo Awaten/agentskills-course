@@ -612,7 +612,7 @@ Agent: 程式碼審查 Agent
 
 ## 下一步
 
-在 Chapter 4 中，我們將深入 Agent Skills 的核心——SKILL.md 格式——從 name 的命名規則到 description 的觸發優化，完整拆解每一個欄位的設計原理與實戰技巧。
+在 Chapter 4 中，我們將實際動手——從零建置第一個 Agent Skill，包含建立目錄、撰寫 SKILL.md、加入腳本與驗證，完整走完開發流程。
 
 ---
 

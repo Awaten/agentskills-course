@@ -403,7 +403,6 @@ Progressive Disclosure 三層架構分別是什麼？為什麼需要這樣的設
 | [agentskills.io](https://agentskills.io) | Agent Skills 官方網站，包含規格說明與生態資訊 |
 | [github.com/agentskills/agentskills](https://github.com/agentskills/agentskills) | 官方 GitHub 倉庫，規格與開源技能集合 |
 | [Anthropic 官方部落格](https://www.anthropic.com) | Anthropic 關於 Agent Skills 的相關公告與技術文章 |
-| Chapter 2：三層漸進式揭露 | 下一章將深入探討 Skills 的核心設計哲學、token 預算與三層載入機制 |
 
 ---
 
