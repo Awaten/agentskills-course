@@ -9,6 +9,7 @@ export default {
   title: 'Agent Skills 實戰課程',
   description: '繁體中文 Agent Skills 完整教學 — 從零學會撰寫、測試、發布 AI Agent 技能',
   head: [
+    ['meta', { name: 'google-site-verification', content: 'NmIX8ImGSjkACPv9JD_mu_euPTmS0kXlzwfX5b5SPao' }],
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['meta', { name: 'og:type', content: 'website' }],
     ['meta', { name: 'og:locale', content: 'zh_TW' }],
