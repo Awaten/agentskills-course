@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://agentskills.leo-laboratory.com/sitemap.xml
