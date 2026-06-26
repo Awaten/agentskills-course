@@ -15,7 +15,9 @@ export default {
     ['meta', { name: 'og:locale', content: 'zh_TW' }],
     ['meta', { name: 'og:site_name', content: 'Leo Laboratory' }],
     ['meta', { name: 'keywords', content: 'Agent Skills, SKILL.md, Claude Code, AI Agent, AI 技能, 教學, 繁體中文' }],
-    ['meta', { name: 'author', content: 'Leo Laboratory' }]
+    ['meta', { name: 'author', content: 'Leo Laboratory' }],
+    ['script', { src: 'https://www.googletagmanager.com/gtag/js?id=G-HWWPSTRG69', async: true }],
+    ['script', {}, "window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-HWWPSTRG69');"]
   ],
 
   // ============================================================
