@@ -80,6 +80,17 @@
 
 ---
 
+## 📖 最新部落格文章
+
+### [Hermes Agent 安裝攻略 2026](https://leo-laboratory.com/ai-resources/agent-skills/hermes-agent-install-guide-2026/)
+> **Windows/Mac 完整教學（免費模型搭配）**
+- 支援 Windows 原生安裝（免 WSL2）
+- 含 Nous Portal、OpenRouter 免費模型設定
+- 2026 最新 v0.16.0 實測驗證
+- 從這篇開始，帶你安裝第一個 AI Agent
+
+---
+
 ## 📌 免責聲明
 
 以上工具推薦基於我們的實際使用經驗。部分連結為聯盟連結，透過這些連結註冊/購買不會增加你的費用，但我們可能獲得少量佣金——這些佣金 100% 用於維護網站和創作更多免費內容。感謝支持 🙏

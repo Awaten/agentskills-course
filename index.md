@@ -28,4 +28,8 @@ features:
     details: "第一份繁體中文 Agent Skills 完整教材。基於 agentskills.io 官方規格 + 實戰經驗撰寫。"
   - title: "🆓 完全免費公開"
     details: "23 篇內容全部免費。目標是降低繁體中文世界學習 Agent Skills 的門檻。"
+
+## 📢 最新消息
+
+> 🆕 [**Hermes Agent 安裝攻略 2026**](https://leo-laboratory.com/ai-resources/agent-skills/hermes-agent-install-guide-2026/) — Windows/Mac 完整教學，含免費模型設定，實測驗證版 → [前往閱讀](https://leo-laboratory.com/ai-resources/agent-skills/hermes-agent-install-guide-2026/)
 footer: "Copyright © 2026 Leo Laboratory"
